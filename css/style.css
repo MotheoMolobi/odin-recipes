@@ -1,0 +1,38 @@
+
+body{
+    background-color: lightcyan;
+}
+
+h1 {
+    text-align: center;
+    color: lightcoral;
+}
+
+a {
+    text-decoration: none;
+    color: lightcoral;
+    font-size: 20px;
+}
+
+.lk1 {
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.nav-links a {
+    text-decoration: none;
+    color: lightcoral;
+    padding: 10px 15px;
+    border: 1px solid lightcoral;
+    border-radius: 5px;
+}
+.nav-links a:hover {
+    background-color: transparent;
+    color: lightcoral;
+}
